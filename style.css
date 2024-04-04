@@ -1,0 +1,266 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+body{
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), blue, rgb(70, 0, 110));
+}
+
+.btn1{
+    background-image: url(imagenes/LG.png), linear-gradient(to right, blue , pink);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    border:2px solid #ffffff;   
+    padding: 25px 400px;
+    border-radius: 45px;
+    cursor: pointer;
+    position: fixed;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn1:hover{
+    background-color:#D0D3D4 ;
+}
+
+.btn2{
+    background-image: url(imagenes/LooneyTunes.png), linear-gradient(to right, rgb(161, 161, 161), rgb(241, 239, 239));
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    border:2px solid #ffffff;   
+    padding: 25px 80px;
+    border-radius: 45px;
+    cursor: pointer;
+    position: fixed;
+    top: 35%;
+    right: 62%; 
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.btn3{
+    background-image: url(imagenes/DC.png), linear-gradient(to right, rgb(161, 161, 161), rgb(241, 239, 239));
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    border:2px solid #ffffff;   
+    padding: 25px 80px;
+    border-radius: 45px;
+    cursor: pointer;
+    position: fixed;
+    top: 35%;
+    right: 46%; 
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.btn4{
+    background-image: url(imagenes/MAX.png), linear-gradient(to right, rgb(161, 161, 161), rgb(241, 239, 239));
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    border:2px solid #ffffff;   
+    padding: 25px 80px;
+    border-radius: 45px;
+    cursor: pointer;
+    position: fixed;
+    top: 35%;
+    right: 30%; 
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.btn5{
+    background-image: url(imagenes/CARTOON.png), linear-gradient(to right, rgb(161, 161, 161), rgb(241, 239, 239));
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    border:2px solid #ffffff;   
+    padding: 25px 80px;
+    border-radius: 45px;
+    cursor: pointer;
+    position: fixed;
+    top: 35%;
+    right: 15%; 
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.btn6{
+    background-image: url(imagenes/TNT.png), linear-gradient(to right, rgb(161, 161, 161), rgb(241, 239, 239));
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    border:2px solid #ffffff;   
+    padding: 25px 80px;
+    border-radius: 45px;
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    right: 62%; 
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.btn7{
+    background-image: url(imagenes/Champions.png), linear-gradient(to right, rgb(161, 161, 161), rgb(241, 239, 239));
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    border:2px solid #ffffff;   
+    padding: 25px 80px;
+    border-radius: 45px;
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    right: 46%; 
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.btn8{
+    background-image: url(imagenes/CNN.png), linear-gradient(to right, rgb(161, 161, 161), rgb(241, 239, 239));
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    border:2px solid #ffffff;   
+    padding: 25px 80px;
+    border-radius: 45px;
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    right: 30%; 
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.btn9{
+    background-image: url(imagenes/Discovery-Channel-Logo.png), linear-gradient(to right, rgb(161, 161, 161), rgb(241, 239, 239));
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    border:2px solid #ffffff;   
+    padding: 25px 80px;
+    border-radius: 45px;
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    right: 15%; 
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.LogIN{
+    background-image: url(imagenes/USER.png ); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center, center; 
+    padding: 33px 33px;
+    border-radius: 45px;
+    cursor: pointer;
+    position: fixed;
+    top: 6%;
+    left: 11%; 
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.lupa{
+    background-image: url(imagenes/lupa.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center, center; 
+    padding: 20px 20px;
+    border-radius: 45px;
+    cursor: pointer;
+    position: fixed;
+    top: 6%;
+    left: 7%; 
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+
+.menu{
+    background-image: url(imagenes/Menu.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center, center; 
+    padding: 20px 70px;
+    border-radius: 45px;
+    cursor: pointer;
+    position: fixed;
+    top: 6%;
+    left: 3%; 
+    transform: translate(-50%, -50%);
+    display: block;
+} 
+
+body.looney{
+    background-image: url(imagenes/Tunes.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.rectangulo1{
+    background-color: #f0f0f0; 
+    border: 2px solid #000; 
+    width: 400px; 
+    height: 200px; 
+    position: absolute; 
+    top: 130px; 
+    left: 70%; 
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.rectangulo1 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn10{
+    background-size: contain;
+    background-color: rgb(255, 236, 61);
+    background-repeat: no-repeat;
+    background-position: center, center; 
+    padding: 10px 10px;
+    border: 2px solid black; 
+    border-radius: 45px; 
+    cursor: pointer;
+    position: fixed;
+    top: 60%;
+    left: 60%; 
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.btn11{
+    background-size: contain;
+    background-color: rgb(255, 236, 61);
+    background-repeat: no-repeat;
+    background-position: center, center; 
+    padding: 10px 10px; 
+    border: 2px solid black; 
+    border-radius: 45px; 
+    cursor: pointer;
+    position: fixed;
+    top: 60%;
+    left: 80%; 
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+body.fondo{
+    background-color: #f0f0f0 !important;
+
+}
+
